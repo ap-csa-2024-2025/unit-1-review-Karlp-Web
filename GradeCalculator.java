@@ -36,6 +36,5 @@ public class GradeCalculator
 
     System.out.println("Final Exam grade: " + exam);
 
-
   }
 }
