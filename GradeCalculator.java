@@ -36,5 +36,11 @@ public class GradeCalculator
 
     System.out.println("Final Exam grade: " + exam);
 
+    double finalGrade = ((avgHwGrade * 0.35) + (avgQuizGrade * 0.15) + (exam * 0.50)) / 3
+
+    int finalGradeRounded = finalGrade + 0.5
+
+
+
   }
 }
