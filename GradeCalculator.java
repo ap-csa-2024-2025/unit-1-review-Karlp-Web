@@ -41,8 +41,5 @@ public class GradeCalculator
     int finalGradeRounded = (int)(finalGrade + 0.5);
 
     System.out.println("Overall grade: " + finalGradeRounded);
-
-
-
   }
 }
