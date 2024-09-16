@@ -38,7 +38,7 @@ public class GradeCalculator
 
     double finalGrade = ((avgHwGrade * 0.35) + (avgQuizGrade * 0.15) + (exam * 0.50)) / 3
 
-    int finalGradeRounded = finalGrade + 0.5
+    int finalGradeRounded = (int)(finalGrade + 0.5)
 
 
 
